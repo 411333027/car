@@ -151,7 +151,15 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
 .envrc
+
+# Gas agent runtime data (DATA_DIR): user photos, Excel records, backups
+data/
+photos/
+backup/
+*.xlsx
 .venv
 env/
 venv/
